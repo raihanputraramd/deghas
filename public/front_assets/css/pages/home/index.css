@@ -1,0 +1,403 @@
+/* Utilities (kebutuhan yang berdiri sendiri tanpa section) */
+
+/* End Utilities */
+
+
+/* Header */
+.page-header {
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.header-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    z-index: 2;
+    position: relative;
+}
+
+.header-ornament-top {
+    position: absolute;
+    top: 14px;
+    left: -19px;
+    z-index: 1;
+}
+
+.header-ornament-bottom {
+    position: absolute;
+    bottom: -16px;
+    right: -16px;
+    z-index: 1;
+}
+
+.header-ornament-circle {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: var(--filter);
+    z-index: 0;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+/* End Header */
+
+
+/* Daftar Produk - dapro */
+#daftarProduk {
+    margin-top: 56px;
+}
+
+.dapro-line {
+    width: 100px;
+    border: 2px solid var(--secondary);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.dapro-card {
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+    border: 1px solid #F1F1F1;
+    height: 100%;
+}
+
+.dapro-card:hover {
+    box-shadow: var(--shadow) !important;
+}
+
+.dapro-card:hover h3{
+    color: var(--primary);
+}
+
+.dapro-card .card-img-top {
+    width: 100%;
+    height: 279px;
+    object-fit: cover;
+}
+
+.dapro-card .card-body {
+    padding: 16px;
+}
+
+.dapro-link {
+    width: 36px;
+    height: 36px;
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dapro-link > i {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.dapro-ornament {
+    position: absolute;
+    top: -48px;
+    filter: var(--filter);
+}
+
+.dapro-ornament.left {
+    left: 0;
+}
+
+.dapro-ornament.right {
+    right: 0;
+}
+/* End Daftar Produk */
+
+
+/* Tentang Kami */
+#tentangKami {
+    margin-top: 56px;
+}
+
+.teka-img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+.teka-card {
+    width: 48%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--shadow);
+    right: 0;
+}
+
+.teka-card .card-body {
+    padding: 68px 24px;
+}
+
+.teka-card-line {
+    width: 100px;
+    border: 2px solid var(--secondary);
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+}
+/* End Tentang Kami */
+
+
+/* Keunggulan Perusahaan - keper */
+#keunggulanPerusahaan {
+    margin-top: 56px;
+}
+
+.keper-line {
+    width: 100px;
+    border: 2px solid var(--secondary);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.keper-card {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    border-radius: var(--border-radius);
+    border: 1px solid #F1F1F1;
+    transition: var(--transition);
+    overflow: hidden;
+    height: 100%;
+}
+
+.keper-card:hover {
+    box-shadow: var(--shadow);
+}
+
+.keper-card:hover h3 {
+    color: var(--primary);
+}
+
+.keper-ic-container {
+    width: 62px;
+    height: 62px;
+    background: var(--white);
+    border: 1px solid #F1F1F1;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.keper-ic-container > img {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.keper-ornament {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    position: absolute;
+    right: -110px;
+    top: -110px;
+}
+/* Keunggulan Perusahaan */
+
+
+/* Promosi */
+#promosi {
+    background: url(../../../images/pages/home/promosi-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 56px;
+    padding: 88px 0;
+}
+
+.promosi-title {
+    font-size: 34px;
+}
+/* End Promosi */
+
+
+/* whatsapp - wa */
+#whatsapp {
+    margin-top: 56px;
+}
+
+.wa-line {
+    width: 100px;
+    border: 2px solid var(--secondary);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.wa-carousel-container {
+    position: relative;
+}
+
+.wa-img {
+    width: 248px;
+    height: 434px;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+}
+
+.wa-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--secondary);
+    background-color: var(--white);
+    z-index: 100;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa-btn.prev {
+    left: 0;
+}
+
+.wa-btn.next {
+    right: 0;
+}
+
+.wa-carousel .slick-slide {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+/* End whatsapp */
+
+
+@media (max-width: 767.98px) {
+
+    /* Header */
+    .page-header {
+        padding-top: 98px;
+    }
+
+    .header-img {
+        height: 240px;
+        margin-top: 32px;
+    }
+    /* End Header */
+
+    /* Daftar Produk */
+    #daftarProduk {
+        margin-top: 56px;
+    }
+
+    .dapro-gutter {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .dapro-gutter > [class^="col-"],
+    .dapro-gutter > [class^=" col-"] {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 24px !important;
+    }
+
+    .dapro-card > .card-img-top {
+        height: 160px;
+    }
+    /* End Daftar Produk */
+
+    /* Tentang Kami */
+    #tentangKami {
+        margin-top: 56px;
+    }
+
+    .teka-img {
+        height: 260px;
+    }
+
+    .teka-card {
+        position: static;
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    .teka-card .card-body {
+        padding: 24px;
+    }
+    /* End Tentang Kami */
+
+    /* Keunggulan Perusahaan */
+    .keper-ornament {
+        width: 210px;
+        height: 210px;
+    }
+    /* End Keunggulan Perusahaan */
+
+    /* Promosi */
+    .promosi-title {
+        font-size: 24px;
+    }
+    /* End Promosi */
+
+    /* Whatsapp */
+    .wa-carousel .slick-slide {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .wa-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+    /* End Whatsapp */
+
+}
+
+@media (min-width: 768px) and (max-width: 997.98px) {
+
+    /* Header */
+    .header-img {
+        height: 280px;
+        margin-top: 24px;
+        object-position: top;
+    }
+    /* End Header */
+
+    /* Tentang Kami */
+    .teka-img {
+        height: 300px;
+    }
+
+    .teka-card {
+        position: static;
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    .teka-card .card-body {
+        padding: 24px;
+    }
+    /* End Tentang Kami */
+
+    /* Keunggulan Perusahaan */
+    .keper-ornament {
+        width: 210px;
+        height: 210px;
+    }
+    /* End Keunggulan Perusahaan */
+
+}
