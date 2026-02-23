@@ -30,7 +30,7 @@
                             @if ($footer != null)
                                 {{ $footer->telepon }}
                             @else
-                                0821-2345-7070
+                                0877-7737-1788
                             @endif
                         </address>
                     </div>
@@ -53,7 +53,7 @@
                             @if ($footer != null)
                                 {{ $footer->email }}
                             @else
-                                ahlinyaweb@gmail.com
+                                deghas@gmail.com
                             @endif
                         </address>
                     </div>
@@ -77,7 +77,7 @@
                             @if ($footer != null)
                                 {{ $footer->alamat }}
                             @else
-                                Jl. Traktor No.123, Cisaranten Kulon, Kec. Arcamanik
+                            jln telegrapia III no 4 RT 4 RW 6 Cibereum Cimahi Selatan kota Cimahi 40535
                             @endif
                         </address>
                     </div>
